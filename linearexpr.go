@@ -19,7 +19,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/irfansharif/solver/internal/pb"
+	"github.com/noqcks/solver/internal/pb"
 )
 
 // LinearExpr represents a linear expression of the form:

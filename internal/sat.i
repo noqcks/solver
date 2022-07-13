@@ -26,7 +26,7 @@
 #include "ortools/util/sorted_interval_list.h"
 %}
 
-%go_import("github.com/irfansharif/solver/internal/pb")
+%go_import("github.com/noqcks/solver/internal/pb")
 
 %module(directors="1") operations_research_sat
 

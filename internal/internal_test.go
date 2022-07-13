@@ -17,7 +17,7 @@ package internal
 import (
 	"testing"
 
-	"github.com/irfansharif/solver/internal/pb"
+	"github.com/noqcks/solver/internal/pb"
 )
 
 func TestSimpleCPSAT(t *testing.T) {

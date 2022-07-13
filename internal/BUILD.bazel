@@ -11,7 +11,7 @@ go_library(
     cdeps = [":ortools-sat"],
     cgo = True,
     cxxopts = ["-std=c++17"],  # keep
-    importpath = "github.com/irfansharif/solver/internal",
+    importpath = "github.com/noqcks/solver/internal",
     visibility = ["//:__subpackages__"],
     deps = [
         "//internal/pb",

@@ -28,8 +28,8 @@ proto: internal/pb/*.proto
 	@echo "--- generating proto files"
 	@protoc --proto_path=internal/pb \
 		--go_out=internal/pb \
-		--go_opt=Mcp_model.proto=github.com/irfansharif/solver/internal/pb \
-		--go_opt=Msat_parameters.proto=github.com/irfansharif/solver/internal/pb \
+		--go_opt=Mcp_model.proto=github.com/noqcks/solver/internal/pb \
+		--go_opt=Msat_parameters.proto=github.com/noqcks/solver/internal/pb \
 		--go_opt=paths=source_relative \
 		cp_model.proto sat_parameters.proto > /dev/null
 

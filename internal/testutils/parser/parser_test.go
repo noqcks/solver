@@ -22,9 +22,9 @@ import (
 	"testing"
 
 	"github.com/cockroachdb/datadriven"
-	"github.com/irfansharif/solver/internal/testutils/bazel"
-	"github.com/irfansharif/solver/internal/testutils/parser"
-	"github.com/irfansharif/solver/internal/testutils/parser/ast"
+	"github.com/noqcks/solver/internal/testutils/bazel"
+	"github.com/noqcks/solver/internal/testutils/parser"
+	"github.com/noqcks/solver/internal/testutils/parser/ast"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/ebnf"
 )

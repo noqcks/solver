@@ -1,7 +1,7 @@
 Solver
 ---
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/irfansharif/solver.svg)](https://godocs.io/github.com/irfansharif/solver)
+[![Go Reference](https://pkg.go.dev/badge/github.com/noqcks/solver.svg)](https://godocs.io/github.com/noqcks/solver)
 
 This is a SAT solver library; underneath the hood it's using cgo and links
 against Google's [Operations Research
@@ -124,7 +124,7 @@ require.True(t, result.Optimal(), "expected solver to find solution")
 ```
 
 For more, look through the package tests and the
-[docs](https://godocs.io/github.com/irfansharif/solver).
+[docs](https://godocs.io/github.com/noqcks/solver).
 
 ### Contributing
 

@@ -22,9 +22,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/irfansharif/solver/internal/testutils/parser/ast"
-	"github.com/irfansharif/solver/internal/testutils/parser/lexer"
-	"github.com/irfansharif/solver/internal/testutils/parser/token"
+	"github.com/noqcks/solver/internal/testutils/parser/ast"
+	"github.com/noqcks/solver/internal/testutils/parser/lexer"
+	"github.com/noqcks/solver/internal/testutils/parser/token"
 	"github.com/stretchr/testify/require"
 )
 

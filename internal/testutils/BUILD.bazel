@@ -6,7 +6,7 @@ go_library(
         "compile.go",
         "scanner.go",
     ],
-    importpath = "github.com/irfansharif/solver/internal/testutils",
+    importpath = "github.com/noqcks/solver/internal/testutils",
     visibility = ["//:__subpackages__"],
     deps = [
         "//internal/testutils/bazel",

@@ -6,7 +6,7 @@ go_library(
         "token.go",
         "type_string.go",
     ],
-    importpath = "github.com/irfansharif/solver/internal/testutils/parser/token",
+    importpath = "github.com/noqcks/solver/internal/testutils/parser/token",
     visibility = ["//:__subpackages__"],
 )
 

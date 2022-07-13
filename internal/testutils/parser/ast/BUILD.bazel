@@ -7,7 +7,7 @@ go_library(
         "ast.go",
         "method.go",
     ],
-    importpath = "github.com/irfansharif/solver/internal/testutils/parser/ast",
+    importpath = "github.com/noqcks/solver/internal/testutils/parser/ast",
     visibility = ["//:__subpackages__"],
     deps = ["//:solver"],
 )

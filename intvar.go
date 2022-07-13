@@ -17,7 +17,7 @@ package solver
 import (
 	"fmt"
 
-	"github.com/irfansharif/solver/internal/pb"
+	"github.com/noqcks/solver/internal/pb"
 )
 
 // IntVar is an integer variable. It's typically constructed using a domain and

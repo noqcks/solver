@@ -20,9 +20,9 @@ import (
 	"testing"
 
 	"github.com/cockroachdb/datadriven"
-	"github.com/irfansharif/solver/internal/testutils/bazel"
-	"github.com/irfansharif/solver/internal/testutils/parser/lexer"
-	"github.com/irfansharif/solver/internal/testutils/parser/token"
+	"github.com/noqcks/solver/internal/testutils/bazel"
+	"github.com/noqcks/solver/internal/testutils/parser/lexer"
+	"github.com/noqcks/solver/internal/testutils/parser/token"
 )
 
 func TestDatadriven(t *testing.T) {

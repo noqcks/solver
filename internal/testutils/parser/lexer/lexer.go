@@ -15,7 +15,7 @@
 package lexer
 
 import (
-	"github.com/irfansharif/solver/internal/testutils/parser/token"
+	"github.com/noqcks/solver/internal/testutils/parser/token"
 )
 
 const eof = rune(0)

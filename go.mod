@@ -1,4 +1,4 @@
-module github.com/irfansharif/solver
+module github.com/noqcks/solver
 
 go 1.16
 

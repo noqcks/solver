@@ -6,7 +6,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 # gazelle:build_tags bazel
 gazelle(
     name = "gazelle",
-    prefix = "github.com/irfansharif/solver",
+    prefix = "github.com/noqcks/solver",
 )
 
 go_library(
@@ -22,7 +22,7 @@ go_library(
         "options.go",
         "result.go",
     ],
-    importpath = "github.com/irfansharif/solver",
+    importpath = "github.com/noqcks/solver",
     visibility = ["//visibility:public"],
     deps = [
         "//internal",

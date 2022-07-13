@@ -15,7 +15,7 @@
 package solver
 
 import (
-	"github.com/irfansharif/solver/internal/pb"
+	"github.com/noqcks/solver/internal/pb"
 )
 
 // Result is what's returned after attempting to solve a model.

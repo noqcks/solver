@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/irfansharif/solver"
+	"github.com/noqcks/solver"
 )
 
 // Argument represents a statement argument (see Statement).

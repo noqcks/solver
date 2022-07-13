@@ -17,8 +17,8 @@ package testutils
 import (
 	"testing"
 
-	"github.com/irfansharif/solver/internal/testutils/parser"
-	"github.com/irfansharif/solver/internal/testutils/parser/ast"
+	"github.com/noqcks/solver/internal/testutils/parser"
+	"github.com/noqcks/solver/internal/testutils/parser/ast"
 )
 
 // Compile compiles the given statement and returns the corresponding AST node.

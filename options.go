@@ -20,8 +20,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/irfansharif/solver/internal"
-	"github.com/irfansharif/solver/internal/pb"
+	"github.com/noqcks/solver/internal"
+	"github.com/noqcks/solver/internal/pb"
 )
 
 type Option func(o *options, s internal.SolveWrapper)

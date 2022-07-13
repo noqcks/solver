@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/irfansharif/solver/internal/pb"
+	"github.com/noqcks/solver/internal/pb"
 )
 
 // Constraint is what a model attempts to satisfy when deciding on a solution.

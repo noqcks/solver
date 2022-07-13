@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/irfansharif/solver/internal"
-	"github.com/irfansharif/solver/internal/pb"
+	"github.com/noqcks/solver/internal"
+	"github.com/noqcks/solver/internal/pb"
 )
 
 // Model is a constraint programming problem. It's not safe for concurrent use.

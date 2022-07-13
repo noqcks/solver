@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/irfansharif/solver/internal/testutils/bazel"
+	"github.com/noqcks/solver/internal/testutils/bazel"
 )
 
 // Scanner is a convenience wrapper around a bufio.Scanner that keeps track of

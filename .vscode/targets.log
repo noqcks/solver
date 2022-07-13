@@ -1,0 +1,426 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Wed Jul 13 14:11:03 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+NVM_INC = /Users/benji.visser/.nvm/versions/node/v11.15.0/include/node
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+CPPFLAGS = -I/usr/local/opt/zlib/include#
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/benji.visser/go/src/github.com/DataDog/solver
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+CLOUDSDK_PYTHON = python2
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_CWD = /Users/benji.visser/go/src/github.com/DataDog/solver
+# environment
+GOPROXY = binaries.ddbuild.io,https://proxy.golang.org,direct
+# environment
+PATH = /Users/benji.visser/.nvm/versions/node/v11.15.0/bin:/usr/local/opt/ruby/bin:/Users/benji.visser/bin:/Users/benji.visser/.serverless/bin:/Users/benji.visser/dd/devtools/bin:/usr/local/opt/awscli@1/bin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/munki:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS:/usr/local/opt/fzf/bin:/Users/benji.visser/go/bin:/Users/benji.visser/.porter
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+VSCODE_IPC_HOOK = /Users/benji.visser/Library/Application Support/Code/1.69.0-main.sock
+# environment
+GOPATH = /Users/benji.visser/go
+# environment
+NVM_BIN = /Users/benji.visser/.nvm/versions/node/v11.15.0/bin
+# environment
+LaunchInstanceID = 275A7764-A2A6-47BF-8414-528149ADB5D3
+# environment
+KUBECTL_FZF_CACHE = /tmp/kubectl_fzf_cache
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+LDFLAGS = -L/usr/local/opt/zlib/lib
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.9Cmj6zmLJs/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS = /Users/benji.visser/Library/WebKit/Databases
+# environment
+PWD = /Users/benji.visser/dd/solver
+# environment
+PKG_CONFIG_PATH = /usr/local/opt/zlib/lib/pkgconfig:/usr/local/opt/openssl/lib/pkgconfig
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+GOMODCACHE = /Users/benji.visser/go/pkg/mod
+# environment
+PYENV_SHELL = zsh
+# environment
+HOME = /Users/benji.visser
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/benji.visser/Library/Application Support/Code/CachedData/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+# environment
+LOGNAME = benji.visser
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+NVM_CD_FLAGS = -q
+# environment
+MOUNT_ALL_GO_SRC = 1
+# environment
+ZSH = /Users/benji.visser/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+LC_TERMINAL = iTerm2
+# environment
+HOMEBREW_CASK_OPTS = --require-sha
+# environment
+SHLVL = 3
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = benji.visser
+# makefile
+.DEFAULT_GOAL := help
+# default
+MAKECMDGOALS := all
+# environment
+TERM_SESSION_ID = w0t0p1:75986263-ADB6-4846-9B6C-309FBEA814F3
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `Makefile', line 12)
+dd = $(shell bazel query "rdeps(..., @com_github_cockroachdb_datadriven//:datadriven)")
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+AWS_VAULT_KEYCHAIN_NAME = login
+# environment
+TERM_PROGRAM = iTerm.app
+# default
+.VARIABLES :=
+# environment
+TMPDIR = /var/folders/nr/xnm4l3hn1lx7rrhp9z1kmhtr0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+AWS_SESSION_TTL = 24h
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 3.4.16
+# environment
+NVM_DIR = /Users/benji.visser/.nvm
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.192960168.192960174.466CAA38-C0AB-41E7-8CDA-9CAB3A0578DA
+# environment
+LC_TERMINAL_VERSION = 3.4.16
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+AWS_ASSUME_ROLE_TTL = 1h
+# environment
+ITERM_SESSION_ID = w0t0p1:75986263-ADB6-4846-9B6C-309FBEA814F3
+# environment
+COLORFGBG = 15;0
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x52
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES :=
+# automatic
+<F = $(notdir $<)
+# environment
+ITERM_PROFILE = Default
+# environment
+GOPRIVATE = github.com/DataDog
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+HOMEBREW_NO_INSECURE_REDIRECT = 1
+# environment
+SECURITYSESSIONID = 186a3
+# automatic
+^F = $(notdir $^)
+# environment
+DATADOG_ROOT = /Users/benji.visser/dd
+# default
+SUFFIXES :=
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+GITLAB_TOKEN = vYqqfotJgw_yNswEDCro
+# environment
+GPG_TTY = /dev/ttys001
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 29958
+# variable set hash-table stats:
+# Load=101/1024=10%, Rehash=0, Collisions=6/125=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# internal/pb (device 16777221, inode 194201470): 9 files, no impossibilities.
+# . (device 16777221, inode 194201373): 32 files, no impossibilities.
+# internal (device 16777221, inode 194201464): 14 files, no impossibilities.
+
+# 55 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+rewrite:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 14):
+	@bazel test $(dd) --test_filter='TestDatadriven' --test_output=all --test_arg='-test.v' --test_arg='-rewrite'
+	@echo "ok"
+
+
+# Not a target:
+internal/pb/cp_model.proto:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+swig: internal/proto.i internal/sat.i internal/vector.i
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 18):
+	@echo "--- generating swig files"
+	@swig -v -go -cgo -c++ -intgosize 64 \
+	-Ic-deps/or-tools \
+	-Ic-deps/abseil-cpp \
+	-o internal/wrapper.cc \
+	-module internal \
+	internal/sat.i > /dev/null
+	@gofmt -s -w internal/internal.go
+
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+FORCE:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 61):
+
+
+# Not a target:
+internal/sat.i:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+internal/proto.i:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-13 14:10:43
+
+make: *** No rule to make target `all'.  Stop.
+
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+proto: internal/pb/cp_model.proto internal/pb/sat_parameters.proto
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 28):
+	@echo "--- generating proto files"
+	@protoc --proto_path=internal/pb \
+	--go_out=internal/pb \
+	--go_opt=Mcp_model.proto=github.com/noqcks/solver/internal/pb \
+	--go_opt=Msat_parameters.proto=github.com/noqcks/solver/internal/pb \
+	--go_opt=paths=source_relative \
+	cp_model.proto sat_parameters.proto > /dev/null
+
+
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 9):
+	@bazel test --test_output=all --test_arg='-test.v' ...
+	@echo "ok"
+
+
+build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 5):
+	@bazel build ...
+	@echo "ok"
+
+
+gogenerate:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 53):
+	@echo "--- generating go:generate files"
+	@go generate ./...
+	@echo "--- tidying go.{mod,sum}"
+	@go mod tidy
+
+
+# Not a target:
+internal/vector.i:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 2):
+	@echo "Supported commands: build, test, generate, rewrite"
+
+
+bzl: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 37):
+	@echo "--- generating bazel files"
+	@echo "build --cxxopt=-std=c++17 --experimental_convenience_symlinks=ignore --define gotags=bazel" > $@.tmp
+	@echo "test  --cxxopt=-std=c++17 --experimental_convenience_symlinks=ignore --define gotags=bazel \
+	--test_env=BAZEL_WORKSPACE=$(shell bazel info workspace) \
+	--sandbox_writable_path=$(shell bazel info workspace)/testdata \
+	--sandbox_writable_path=$(shell bazel info workspace)/internal/testutils/parser/testdata \
+	--sandbox_writable_path=$(shell bazel info workspace)/internal/testutils/parser/lexer/testdata" >> $@.tmp
+	@echo "try-import %workspace%/.bazelrc.user" >> $@.tmp
+	@mv $@.tmp .bazelrc
+	@bazel run //:gazelle -- update-repos \
+	-from_file=go.mod -prune=true \
+	-build_file_proto_mode=disable_global \
+	-to_macro=DEPS.bzl%go_deps &> /dev/null
+	@bazel run //:gazelle &> /dev/null
+
+
+generate: gogenerate swig proto bzl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 59):
+	@echo "ok"
+
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+internal/pb/sat_parameters.proto:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=19/1024=2%, Rehash=0, Collisions=4/41=10%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Wed Jul 13 14:11:03 2022
+
+

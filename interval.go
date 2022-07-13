@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/irfansharif/solver/internal/pb"
+	"github.com/noqcks/solver/internal/pb"
 )
 
 // Interval represents an interval parameterized by a start, end, and

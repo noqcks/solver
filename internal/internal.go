@@ -95,7 +95,7 @@ import (
 	"unsafe"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/irfansharif/solver/internal/pb"
+	"github.com/noqcks/solver/internal/pb"
 )
 
 type _ unsafe.Pointer
