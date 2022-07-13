@@ -49,3 +49,10 @@ go_test(
         "@com_github_stretchr_testify//require",
     ],
 )
+
+# gazelle:go_naming_convention import_alias
+alias(
+    name = "go_default_library",
+    actual = ":solver",
+    visibility = ["//visibility:public"],
+)
